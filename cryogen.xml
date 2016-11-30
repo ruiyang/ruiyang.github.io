@@ -3,26 +3,26 @@
 <channel>
 <atom:link href='http://blogawesome.com/' rel='self' type='application/rss+xml'/>
 <title>
-My Awesome Blog
+Rui Yang
 </title>
 <link>
 http://blogawesome.com/
 </link>
 <description>
-This blog is awesome
+Rui's footprint in the technology journey
 </description>
 <lastBuildDate>
-Tue, 29 Nov 2016 16:50:54 +1100
+Wed, 30 Nov 2016 13:18:06 +1100
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
 <item>
 <guid>
-http://blogawesome.com/blog/posts-output/2016-01-07-docs/
+http://blogawesome.com/posts-output/2016-01-07-docs/
 </guid>
 <link>
-http://blogawesome.com/blog/posts-output/2016-01-07-docs/
+http://blogawesome.com/posts-output/2016-01-07-docs/
 </link>
 <title>
 Quick Start Guide

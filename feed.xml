@@ -3,26 +3,26 @@
 <channel>
 <atom:link href='http://blogawesome.com/' rel='self' type='application/rss+xml'/>
 <title>
-My Awesome Blog
+Rui Yang
 </title>
 <link>
 http://blogawesome.com/
 </link>
 <description>
-This blog is awesome
+Rui's footprint in the technology journey
 </description>
 <lastBuildDate>
-Tue, 29 Nov 2016 16:50:54 +1100
+Wed, 30 Nov 2016 13:18:06 +1100
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
 <item>
 <guid>
-http://blogawesome.com/blog/posts-output/2016-01-07-docs/
+http://blogawesome.com/posts-output/2016-01-07-docs/
 </guid>
 <link>
-http://blogawesome.com/blog/posts-output/2016-01-07-docs/
+http://blogawesome.com/posts-output/2016-01-07-docs/
 </link>
 <title>
 Quick Start Guide
@@ -95,10 +95,10 @@ Thu, 07 Jan 2016 00:00:00 +1100
 </item>
 <item>
 <guid>
-http://blogawesome.com/blog/posts-output/2014-11-04-second-post/
+http://blogawesome.com/posts-output/2014-11-04-second-post/
 </guid>
 <link>
-http://blogawesome.com/blog/posts-output/2014-11-04-second-post/
+http://blogawesome.com/posts-output/2014-11-04-second-post/
 </link>
 <title>
 Yet Another Post
@@ -115,16 +115,18 @@ Tue, 04 Nov 2014 00:00:00 +1100
 </item>
 <item>
 <guid>
-http://blogawesome.com/blog/posts-output/2014-03-10-first-post/
+http://blogawesome.com/posts-output/2014-03-10-first-post/
 </guid>
 <link>
-http://blogawesome.com/blog/posts-output/2014-03-10-first-post/
+http://blogawesome.com/posts-output/2014-03-10-first-post/
 </link>
 <title>
 A Post
 </title>
 <description>
-&lt;h3&gt;&lt;a name=&quot;this&amp;#95;post&amp;#95;not&amp;#95;fetch&amp;#95;enough&quot;&gt;&lt;/a&gt;This Post Not Fetch Enough&lt;/h3&gt;&lt;p&gt;some stuff happened&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;and a quote appeared &lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2&gt;&lt;a name=&quot;this&amp;#95;post&amp;#95;not&amp;#95;fetch&amp;#95;enough&quot;&gt;&lt;/a&gt;This Post Not Fetch Enough&lt;/h2&gt;&lt;p&gt;some stuff happened&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;and a quote appeared &lt;/p&gt;&lt;/blockquote&gt;&lt;pre&gt;&lt;code class=&quot;clojure&quot;&gt;&amp;#40;defn t &amp;#91;&amp;#93;
+  &amp;#40;+ 1 2&amp;#41;&amp;#41;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
 <enclosure>
 

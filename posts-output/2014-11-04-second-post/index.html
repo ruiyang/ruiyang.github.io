@@ -7,7 +7,7 @@
     <!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
     <!-- Modified to fit Cryogen.-->
     <meta charset="UTF-8">
-    <title>My Awesome Blog: Yet Another Post</title>
+    <title>Rui Yang: Yet Another Post</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -17,11 +17,11 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
     <link rel="shortcut icon" href="images/ico/favicon.png">
     <!--[if IE]><![endif]-->
-    <link href="/blog/css/buttons.css" rel="stylesheet" type="text/css" />
-    <link href="/blog/css/menu.css" rel="stylesheet" type="text/css" />
-    <link href="/blog/css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="/blog/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="/blog/css/typography.css" rel="stylesheet" type="text/css" />
+    <link href="/css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/typography.css" rel="stylesheet" type="text/css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow-night-eighties.min.css">
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -30,42 +30,48 @@
 
 <div id="left">
 
-    <p id="logo">
-        <a title="My Awesome Blog" href="/blog/">
-            <span class="fa fa-rocket"></span>
-            <span class="text">Nucleus</span>
-        </a>
-    </p>
-
     <div id="menucont" class="bodycontainer clearfix">
         <div class="menutitle">
             <p><span class="fa fa-reorder"></span><strong>Menu</strong></p>
         </div>
         <ul class="menu">
-            <li ><a title="Home" href="/blog/">Home</a></li>
-            <li ><a title="Archives" href="/blog/archives/">Archives</a></li>
+            <li ><a title="Home" href="/"><span><i class="fa fa-home fa-3x"></i></span></a></li>
+            <li ><a title="Archives" href="/archives/">
+                <span><i class="fa fa-archive fa-3x"></i></span>
+            </a></li>
             
-            <li ><a title="Tags" href="/blog/tags/">Tags</a></li>
+            <li >
+              <a title="Tags" href="/tags/">
+                <span><i class="fa fa-tags fa-3x"></i></span>
+              </a>
+            </li>
             
             
             <li >
-                <a href="/blog/pages-output/about/">About</a>
+              <a href="/pages-output/about/">
+                <span><i class="fa fa-user fa-3x"></i></span>
+              </a>
             </li>
             
-            <li><a title="RSS" href="/blog/feed.xml">RSS</a></li>
+            <li>
+              <a title="LinkedIn" target="_blank" href="https://au.linkedin.com/in/rui-yang-804b1a23">
+                <span><i class="fa fa-linkedin fa-3x"></i></span>
+              </a>
+            </li>
+            <li>
+              <a title="Github" target="_blank" href="https://github.com/ruiyang">
+                <span><i class="fa fa-github fa-3x"></i></span>
+              </a>
+            </li>
+            <li>
+              <a title="RSS" target="_blank" href="/feed.xml">
+                <span><i class="fa fa-rss fa-3x"></i></span>
+              </a>
+            </li>
+
         </ul>
     </div>
 
-    <div id="socialmedia" class="clearfix">
-        <ul>
-            <li><a title="GitHub" href="./" rel="external"><span class="fa fa-github"></span></a></li>
-            <li><a title="Stack Overflow" href="./" rel="external"><span class="fa fa-stack-overflow"></span></a></li>
-            <li><a title="Google+" href="./" rel="external"><span class="fa fa-google-plus"></span></a></li>
-            <li><a title="LinkedIn" href="./" rel="external"><span class="fa fa-linkedin"></span></a></li>
-            <li><a title="Last.fm" href="./" rel="external"><span class="fa fa-lastfm"></span></a></li>
-        </ul>
-    </div>
-    
 </div>
 
 <div id="right" class="clearfix">
@@ -84,7 +90,7 @@
     <br/> 
     <b>Tags: </b>
     
-    <a href="/blog/tags-output/very fetch/">very fetch</a>
+    <a href="/tags-output/very fetch/">very fetch</a>
     
 </div>
 
@@ -92,10 +98,10 @@
 
     <div id="prev-next">
         
-        <a class="button" href="/blog/posts-output/2016-01-07-docs/">&laquo; Quick Start Guide</a>
+        <a class="button" href="/posts-output/2016-01-07-docs/">&laquo; Quick Start Guide</a>
         
         
-        <a class="right button" href="/blog/posts-output/2014-03-10-first-post/">A Post &raquo;</a>
+        <a class="right button" href="/posts-output/2014-03-10-first-post/">A Post &raquo;</a>
         
     </div>
 
@@ -105,14 +111,13 @@
 </div>
 
 <hr/>
-<div id="footercont" class="clearfix">Copyright &copy; 2016 Bob Bobbert
-    <p>Powered by <a href="http://cryogenweb.org">Cryogen</a> | Free Website Template by <a title="free website templates" href="http://www.downloadwebsitetemplates.co.uk" rel="external">Download Website Templates</a></p>
+<div id="footercont" class="clearfix"><strong>Copyright &copy; 2016 Rui Yang | Powered by <a href="http://cryogenweb.org">Cryogen</a></strong>
 
 </div>
 </div>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="/blog/js/highlight.pack.js" type="text/javascript"></script>
+<script src="/js/highlight.pack.js" type="text/javascript"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<script src="/blog/js/scripts.js" type="text/javascript"></script>
+<script src="/js/scripts.js" type="text/javascript"></script>
 </body>
 </html>

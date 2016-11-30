@@ -31,7 +31,7 @@ html {
 }
 
 body {
-    font-family: "Oxygen", Arial, Verdana, Helvetica, sans-serif;
+    font-family: "Bitter", "Georgia", "Times New Roman", serif, "Oxygen", Arial, Verdana, Helvetica, sans-serif;
     font-size: 15px;
     color: #555;
     font-weight: 400;
@@ -108,12 +108,12 @@ img.imgfull {
     left: 0;
     bottom: 0;
     width: 100%;
-    max-width: 280px;
-    background: #A71E2E;
-    color: #FFF;
+    max-width: 200px;
     z-index: 3;
     overflow-y: auto;
-
+    background-color: #192029;
+    background-image: url("/img/mocha-grunge.png");
+    padding-top: 40px;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -149,8 +149,11 @@ img.imgfull {
     font-size: 30px;
     line-height: 30px;
     font-weight: 700;
-    font-family: "Montserrat";
     text-transform: uppercase;
+}
+
+#left #menucont a {
+  text-align: center;
 }
 
 #left #socialmedia ul {
@@ -184,7 +187,7 @@ img.imgfull {
     width: 100%;
     max-width: 1240px;
     z-index: 2;
-    padding: 40px 50px 40px 320px;
+    padding: 40px 50px 40px 250px;
 }
 
 #right p {
